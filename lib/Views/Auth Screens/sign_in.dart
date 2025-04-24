@@ -107,7 +107,7 @@ class _SignInScreenState extends State<SignInScreen> {
                         image: AssetImage("assets/images/loginCenter.png"),
                         height: 200,
                       ),
-                      SizedBox(height: 30),
+                      SizedBox(height: 50),
 
                       CustomAppFormField(
                         texthint: "Email",

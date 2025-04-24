@@ -76,8 +76,8 @@ class _CustomAppFormFieldState extends State<CustomAppFormField> {
       decoration: BoxDecoration(
           border: widget.border == false
               ? null
-              : Border.all(color: AppTheme.appColor),
-          color: widget.bgcolor ?? Color(0xffF1F4FF),
+              : Border.all(color:Color(0xffFDF7E3)),
+          color: widget.bgcolor ?? Color(0xffFDF7E3),
           borderRadius: BorderRadius.circular(10)),
       child: TextField(
         controller: widget.controller,
@@ -171,8 +171,8 @@ class _CustomAppPasswordfieldState extends State<CustomAppPasswordfield> {
         height: 60,
         width: MediaQuery.of(context).size.width,
         decoration: BoxDecoration(
-            border: Border.all(color: AppTheme.appColor),
-            color: Color(0xffF1F4FF),
+            border: Border.all(color: Color(0xffFDF7E3)),
+            color: Color(0xffFDF7E3),
             borderRadius: BorderRadius.circular(10)),
         child: TextFormField(
           controller: widget.controller,

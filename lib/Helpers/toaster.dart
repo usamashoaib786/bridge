@@ -14,7 +14,7 @@ class ToastHelper {
 
   static void displaySuccessMotionToast({required BuildContext context, msg}) {
     MotionToast toast = MotionToast.success(
-      animationType: AnimationType.slideInFromLeft,
+      animationType: AnimationType.slideInFromTop,
       position: MotionToastPosition.top,
       description: ConstrainedBox(
         constraints: BoxConstraints(
@@ -35,7 +35,7 @@ class ToastHelper {
 
   static void displayErrorMotionToast({required BuildContext context, msg}) {
     MotionToast toast = MotionToast.error(
-      animationType: AnimationType.slideInFromLeft,
+      animationType: AnimationType.slideInFromTop,
       position: MotionToastPosition.top,
       description: ConstrainedBox(
         constraints: BoxConstraints(

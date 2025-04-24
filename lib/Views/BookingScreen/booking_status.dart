@@ -81,7 +81,7 @@ class _BookingStatusState extends State<BookingStatus> {
     try {
       final response = await dio.get(
           path:
-              "https://api.coworkatnastp.com/api/booking-schedule/search?query=$query");
+              "https://api.bridgepk.com/api/booking-schedule/search?query=$query");
       List<dynamic> schedules = response.data['results'];
       setState(() {
         _bookings =
@@ -627,7 +627,7 @@ class _BookingStatusState extends State<BookingStatus> {
     setState(() => _isLoading = true);
     try {
       final response = await dio.delete(
-          path: "https://api.coworkatnastp.com/api/booking-schedule/$id");
+          path: "https://api.bridgepk.com/api/booking-schedule/$id");
       if (response.statusCode == 200) {
         ToastHelper.displaySuccessMotionToast(
             context: context, msg: "Deleted successfully!");

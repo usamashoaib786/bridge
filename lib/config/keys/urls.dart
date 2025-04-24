@@ -1,5 +1,5 @@
 class AppUrls {
-  static const String baseUrl = "https://api.coworkatnastp.com/api/";
+  static const String baseUrl = "https://api.bridgepk.com/api/";
   static const String logIn = "branch/login";
   static const String logOut= "logout";
   static const String availRooms= "booking-schedule/availability-rooms";
